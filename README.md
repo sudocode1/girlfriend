@@ -14,10 +14,10 @@ if you want to configure your paritions beforehand, or are just interested in ho
 the configuration is somewhat different to how people regularly configure partitions
 
 
-| partition | size | intended use |
-| --- | ----------- | ---------- |
-| /dev/sd\*1 | 128M | this is used for GRUB, the bootloader | 
-| /dev/sd\*2 | Everything else | this is general storage |
+| partition | size | intended use | bootable |
+| --- | ----------- | ---------- | ------------ | 
+| /dev/sd\*1 | 128M | this is used for GRUB, the bootloader | yes | 
+| /dev/sd\*2 | Everything else | this is general storage | no |
 
 ## installation
 ### requirements
